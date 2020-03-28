@@ -1,0 +1,232 @@
+[Rainmeter]
+Update=100
+Author=陈政先
+
+===============================
+
+[Variables]
+
+B=#CURRENTPATH#button.png
+
+L1=::{20D04FE0-3AEA-1069-A2D8-08002B30309D}
+T1=Computer
+
+L2=D:\Desktop
+T2=Desktop
+
+L3=D:\Downloads
+T3=Downloads
+
+L4=D:\文档
+T4=Documents
+
+L5=D:\Music
+T5=Music
+
+L6=D:\图片
+T6=Pictures
+
+L7=D:\Videos
+T7=Videos
+
+L8=::{645FF040-5081-101B-9F08-00AA002F954E}
+T8=Recycle Bin
+
+===============================
+
+[Metadata]
+Name=DocuentsClassifiers
+Config=
+Description=
+Instructions=
+Version=1.00
+Tags=
+License=
+Variant=
+Preview=
+
+===============================
+
+[Meter1]
+Meter=BUTTON
+X=0
+Y=0
+ButtonImage=#B#
+ButtonCommand=!Execute ["#L1#"]
+MouseOverAction=!Execute [!SetOption String1 FontColor 0,0,0,200]
+MouseLeaveAction=!Execute [!SetOption String1 FontColor 255,255,255,200] 
+
+[String1]
+Meter=String
+x=0
+y=0
+StringAlign=LEFT
+StringCase=UPPER
+FontColor=255,255,255,200
+FontSize=14
+FontFace=Benguiat Rus
+Text="#T1#"
+AntiAlias=1
+
+===============================
+
+[Meter2]
+Meter=BUTTON
+X=0
+Y=40
+ButtonImage=#B#
+ButtonCommand=!Execute ["#L2#"]
+MouseOverAction=!Execute [!SetOption String2 FontColor 0,0,0,200]
+MouseLeaveAction=!Execute [!SetOption String2 FontColor 255,255,255,200]
+
+[String2]
+Meter=String
+x=0
+y=40
+StringAlign=LEFT
+StringCase=UPPER
+FontColor=255,255,255,200
+FontSize=14
+FontFace=Benguiat Rus
+Text="#T2#"
+AntiAlias=1
+
+===============================
+
+[Meter3]
+Meter=BUTTON
+X=0
+Y=80
+ButtonImage=#B#
+ButtonCommand=!Execute ["#L3#"]
+MouseOverAction=!Execute [!SetOption String3 FontColor 0,0,0,200]
+MouseLeaveAction=!Execute [!SetOption String3 FontColor 255,255,255,200] 
+
+[String3]
+Meter=String
+x=0
+y=80
+StringAlign=LEFT
+StringCase=UPPER
+FontColor=255,255,255,200
+FontSize=14
+FontFace=Benguiat Rus
+Text="#T3#"
+AntiAlias=1
+
+===============================
+
+[Meter4]
+Meter=BUTTON
+X=0
+Y=120
+ButtonImage=#B#
+ButtonCommand=!Execute ["#L4#"]
+MouseOverAction=!Execute [!SetOption String4 FontColor 0,0,0,200]
+MouseLeaveAction=!Execute [!SetOption String4 FontColor 255,255,255,200]
+
+[String4]
+Meter=String
+x=0
+y=120
+StringAlign=LEFT
+StringCase=UPPER
+FontColor=255,255,255,200
+FontSize=14
+FontFace=Benguiat Rus
+Text="#T4#"
+AntiAlias=1
+
+===============================
+
+[Meter5]
+Meter=BUTTON
+X=0
+Y=160
+ButtonImage=#B#
+ButtonCommand=!Execute ["#L5#"]
+MouseOverAction=!Execute [!SetOption String5 FontColor 0,0,0,200] 
+MouseLeaveAction=!Execute [!SetOption String5 FontColor 255,255,255,200]
+
+[String5]
+Meter=String
+x=0
+y=160
+StringAlign=LEFT
+StringCase=UPPER
+FontColor=255,255,255,200
+FontSize=14
+FontFace=Benguiat Rus
+Text="#T5#"
+AntiAlias=1
+
+===============================
+
+[Meter6]
+Meter=BUTTON
+X=0
+Y=200
+ButtonImage=#B#
+ButtonCommand=!Execute ["#L6#"]
+MouseOverAction=!Execute [!SetOption String6 FontColor 0,0,0,200] 
+MouseLeaveAction=!Execute [!SetOption String6 FontColor 255,255,255,200]
+
+[String6]
+Meter=String
+x=0
+y=200
+StringAlign=LEFT
+StringCase=UPPER
+FontColor=255,255,255,200
+FontSize=14
+FontFace=Benguiat Rus
+Text="#T6#"
+AntiAlias=1
+
+===============================
+
+[Meter7]
+Meter=BUTTON
+X=0
+Y=240
+ButtonImage=#B#
+ButtonCommand=!Execute ["#L7#"]
+MouseOverAction=!Execute [!SetOption String7 FontColor 0,0,0,200]
+MouseLeaveAction=!Execute [!SetOption String7 FontColor 255,255,255,200]
+
+[String7]
+Meter=String
+x=0
+y=240
+StringAlign=LEFT
+StringCase=UPPER
+FontColor=255,255,255,200
+FontSize=14
+FontFace=Benguiat Rus
+Text="#T7#"
+AntiAlias=1
+
+===============================
+
+[Meter8]
+Meter=BUTTON
+X=0
+Y=280
+ButtonImage=#B#
+ButtonCommand=!Execute ["#L8#"]
+MouseOverAction=!Execute [!SetOption String8 FontColor 0,0,0,200]
+MouseLeaveAction=!Execute [!SetOption String8 FontColor 255,255,255,200]
+
+[String8]
+Meter=String
+x=0
+y=280
+StringAlign=LEFT
+StringCase=UPPER
+FontColor=255,255,255,200
+FontSize=14
+FontFace=Benguiat Rus
+Text="#T8#"
+AntiAlias=1
+
+===============================
